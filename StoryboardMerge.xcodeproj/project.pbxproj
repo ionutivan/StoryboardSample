@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6C0083A1908078E0050A507 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6C008391908078E0050A507 /* Foundation.framework */; };
+		C6C0083C1908078E0050A507 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6C0083B1908078E0050A507 /* CoreGraphics.framework */; };
+		C6C0083E1908078E0050A507 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6C0083D1908078E0050A507 /* UIKit.framework */; };
+		C6C008441908078E0050A507 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6C008421908078E0050A507 /* InfoPlist.strings */; };
+		C6C008461908078F0050A507 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C008451908078F0050A507 /* main.m */; };
+		C6C0084A1908078F0050A507 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C008491908078F0050A507 /* AppDelegate.m */; };
+		C6C0084D1908078F0050A507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6C0084B1908078F0050A507 /* Main.storyboard */; };
+		C6C008501908078F0050A507 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C0084F1908078F0050A507 /* ViewController.m */; };
+		C6C008521908078F0050A507 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6C008511908078F0050A507 /* Images.xcassets */; };
+		C6C008591908078F0050A507 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6C008581908078F0050A507 /* XCTest.framework */; };
+		C6C0085A1908078F0050A507 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6C008391908078E0050A507 /* Foundation.framework */; };
+		C6C0085B1908078F0050A507 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6C0083D1908078E0050A507 /* UIKit.framework */; };
+		C6C00863190807900050A507 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6C00861190807900050A507 /* InfoPlist.strings */; };
+		C6C00865190807900050A507 /* StoryboardMergeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C00864190807900050A507 /* StoryboardMergeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C6C0085C1908078F0050A507 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C6C0082E1908078E0050A507 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6C008351908078E0050A507;
+			remoteInfo = StoryboardMerge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6C008361908078E0050A507 /* StoryboardMerge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardMerge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6C008391908078E0050A507 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C6C0083B1908078E0050A507 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C6C0083D1908078E0050A507 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C6C008411908078E0050A507 /* StoryboardMerge-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryboardMerge-Info.plist"; sourceTree = "<group>"; };
+		C6C008431908078E0050A507 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C6C008451908078F0050A507 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C6C008471908078F0050A507 /* StoryboardMerge-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StoryboardMerge-Prefix.pch"; sourceTree = "<group>"; };
+		C6C008481908078F0050A507 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C6C008491908078F0050A507 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C6C0084C1908078F0050A507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6C0084E1908078F0050A507 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C6C0084F1908078F0050A507 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C6C008511908078F0050A507 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C6C008571908078F0050A507 /* StoryboardMergeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StoryboardMergeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6C008581908078F0050A507 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C6C00860190807900050A507 /* StoryboardMergeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StoryboardMergeTests-Info.plist"; sourceTree = "<group>"; };
+		C6C00862190807900050A507 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C6C00864190807900050A507 /* StoryboardMergeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoryboardMergeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6C008331908078E0050A507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C0083C1908078E0050A507 /* CoreGraphics.framework in Frameworks */,
+				C6C0083E1908078E0050A507 /* UIKit.framework in Frameworks */,
+				C6C0083A1908078E0050A507 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6C008541908078F0050A507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C008591908078F0050A507 /* XCTest.framework in Frameworks */,
+				C6C0085B1908078F0050A507 /* UIKit.framework in Frameworks */,
+				C6C0085A1908078F0050A507 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6C0082D1908078E0050A507 = {
+			isa = PBXGroup;
+			children = (
+				C6C0083F1908078E0050A507 /* StoryboardMerge */,
+				C6C0085E1908078F0050A507 /* StoryboardMergeTests */,
+				C6C008381908078E0050A507 /* Frameworks */,
+				C6C008371908078E0050A507 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6C008371908078E0050A507 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6C008361908078E0050A507 /* StoryboardMerge.app */,
+				C6C008571908078F0050A507 /* StoryboardMergeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6C008381908078E0050A507 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6C008391908078E0050A507 /* Foundation.framework */,
+				C6C0083B1908078E0050A507 /* CoreGraphics.framework */,
+				C6C0083D1908078E0050A507 /* UIKit.framework */,
+				C6C008581908078F0050A507 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6C0083F1908078E0050A507 /* StoryboardMerge */ = {
+			isa = PBXGroup;
+			children = (
+				C6C008481908078F0050A507 /* AppDelegate.h */,
+				C6C008491908078F0050A507 /* AppDelegate.m */,
+				C6C0084B1908078F0050A507 /* Main.storyboard */,
+				C6C0084E1908078F0050A507 /* ViewController.h */,
+				C6C0084F1908078F0050A507 /* ViewController.m */,
+				C6C008511908078F0050A507 /* Images.xcassets */,
+				C6C008401908078E0050A507 /* Supporting Files */,
+			);
+			path = StoryboardMerge;
+			sourceTree = "<group>";
+		};
+		C6C008401908078E0050A507 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6C008411908078E0050A507 /* StoryboardMerge-Info.plist */,
+				C6C008421908078E0050A507 /* InfoPlist.strings */,
+				C6C008451908078F0050A507 /* main.m */,
+				C6C008471908078F0050A507 /* StoryboardMerge-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6C0085E1908078F0050A507 /* StoryboardMergeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6C00864190807900050A507 /* StoryboardMergeTests.m */,
+				C6C0085F190807900050A507 /* Supporting Files */,
+			);
+			path = StoryboardMergeTests;
+			sourceTree = "<group>";
+		};
+		C6C0085F190807900050A507 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6C00860190807900050A507 /* StoryboardMergeTests-Info.plist */,
+				C6C00861190807900050A507 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6C008351908078E0050A507 /* StoryboardMerge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6C00868190807900050A507 /* Build configuration list for PBXNativeTarget "StoryboardMerge" */;
+			buildPhases = (
+				C6C008321908078E0050A507 /* Sources */,
+				C6C008331908078E0050A507 /* Frameworks */,
+				C6C008341908078E0050A507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StoryboardMerge;
+			productName = StoryboardMerge;
+			productReference = C6C008361908078E0050A507 /* StoryboardMerge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C6C008561908078F0050A507 /* StoryboardMergeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6C0086B190807900050A507 /* Build configuration list for PBXNativeTarget "StoryboardMergeTests" */;
+			buildPhases = (
+				C6C008531908078F0050A507 /* Sources */,
+				C6C008541908078F0050A507 /* Frameworks */,
+				C6C008551908078F0050A507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C6C0085D1908078F0050A507 /* PBXTargetDependency */,
+			);
+			name = StoryboardMergeTests;
+			productName = StoryboardMergeTests;
+			productReference = C6C008571908078F0050A507 /* StoryboardMergeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6C0082E1908078E0050A507 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ionut Ivan";
+				TargetAttributes = {
+					C6C008561908078F0050A507 = {
+						TestTargetID = C6C008351908078E0050A507;
+					};
+				};
+			};
+			buildConfigurationList = C6C008311908078E0050A507 /* Build configuration list for PBXProject "StoryboardMerge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6C0082D1908078E0050A507;
+			productRefGroup = C6C008371908078E0050A507 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6C008351908078E0050A507 /* StoryboardMerge */,
+				C6C008561908078F0050A507 /* StoryboardMergeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6C008341908078E0050A507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C008521908078F0050A507 /* Images.xcassets in Resources */,
+				C6C008441908078E0050A507 /* InfoPlist.strings in Resources */,
+				C6C0084D1908078F0050A507 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6C008551908078F0050A507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C00863190807900050A507 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6C008321908078E0050A507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C008501908078F0050A507 /* ViewController.m in Sources */,
+				C6C0084A1908078F0050A507 /* AppDelegate.m in Sources */,
+				C6C008461908078F0050A507 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6C008531908078F0050A507 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C00865190807900050A507 /* StoryboardMergeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C6C0085D1908078F0050A507 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6C008351908078E0050A507 /* StoryboardMerge */;
+			targetProxy = C6C0085C1908078F0050A507 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C6C008421908078E0050A507 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6C008431908078E0050A507 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C6C0084B1908078F0050A507 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6C0084C1908078F0050A507 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6C00861190807900050A507 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6C00862190807900050A507 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6C00866190807900050A507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C6C00867190807900050A507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6C00869190807900050A507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StoryboardMerge/StoryboardMerge-Prefix.pch";
+				INFOPLIST_FILE = "StoryboardMerge/StoryboardMerge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C6C0086A190807900050A507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StoryboardMerge/StoryboardMerge-Prefix.pch";
+				INFOPLIST_FILE = "StoryboardMerge/StoryboardMerge-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C6C0086C190807900050A507 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StoryboardMerge.app/StoryboardMerge";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StoryboardMerge/StoryboardMerge-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "StoryboardMergeTests/StoryboardMergeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C6C0086D190807900050A507 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/StoryboardMerge.app/StoryboardMerge";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StoryboardMerge/StoryboardMerge-Prefix.pch";
+				INFOPLIST_FILE = "StoryboardMergeTests/StoryboardMergeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6C008311908078E0050A507 /* Build configuration list for PBXProject "StoryboardMerge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6C00866190807900050A507 /* Debug */,
+				C6C00867190807900050A507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6C00868190807900050A507 /* Build configuration list for PBXNativeTarget "StoryboardMerge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6C00869190807900050A507 /* Debug */,
+				C6C0086A190807900050A507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C6C0086B190807900050A507 /* Build configuration list for PBXNativeTarget "StoryboardMergeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6C0086C190807900050A507 /* Debug */,
+				C6C0086D190807900050A507 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6C0082E1908078E0050A507 /* Project object */;
+}
