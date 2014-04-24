@@ -26,6 +26,13 @@
                                     <segue destination="JIi-l5-TC2" kind="push" id="2w2-ZO-wsS"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w3f-NT-zyK">
+                                <rect key="frame" x="201" y="320" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.29312139939999998" green="1" blue="0.65967127299999995" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
